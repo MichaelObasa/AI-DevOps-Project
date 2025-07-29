@@ -105,3 +105,14 @@ DevOps Engineer | Builder of Indexr & Documate
 📍 United Kingdom
 🔗 LinkedIn
 💻 GitHub
+
+
+---
+
+Just drop that in, commit it:
+
+```bash
+git add README.md
+git commit -m "docs: add full project README"
+git push
+
