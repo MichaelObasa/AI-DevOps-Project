@@ -86,3 +86,22 @@ jobs:
       - name: Run simple test
         run: echo "✅ CI pipeline triggered and working!"
 
+--
+
+📌 Next Steps
+ Add secrets management with Vault
+
+ Deploy to Azure Kubernetes Service (AKS)
+
+ Create token usage analytics dashboard
+
+ Publish full project write-up on Medium
+
+ Share reflections on LinkedIn
+
+👨🏾‍💻 Built By
+Michael Obasa
+DevOps Engineer | Builder of Indexr & Documate
+📍 United Kingdom
+🔗 LinkedIn
+💻 GitHub
