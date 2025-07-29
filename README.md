@@ -18,6 +18,7 @@ Component	Description
 bash
 Copy
 Edit
+
 ai-devops-pipeline/
 ├── app/
 │   └── main.py            # FastAPI app
@@ -30,8 +31,11 @@ ai-devops-pipeline/
 └── README.md              # This file
 🚀 How to Run It Locally
 bash
+
 Copy
+
 Edit
+
 # 1. Clone the repo
 git clone https://github.com/MichaelObasa/ai-devops-pipeline.git
 cd ai-devops-pipeline
