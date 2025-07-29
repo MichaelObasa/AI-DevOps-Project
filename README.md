@@ -58,3 +58,10 @@ curl -X POST http://localhost:8000/prompt \
   -H "Content-Type: application/json" \
   -d '{"prompt": "What is DevOps?"}'
 
+{
+  "version_id": "a1b2c3d4",
+  "response": "Mock GPT response to: What is DevOps?",
+  "tokens_used": 10
+}
+
+
