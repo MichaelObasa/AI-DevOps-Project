@@ -64,4 +64,25 @@ curl -X POST http://localhost:8000/prompt \
   "tokens_used": 10
 }
 
+# .github/workflows/deploy.yml
+
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run simple test
+        run: echo "✅ CI pipeline triggered and working!"
 
