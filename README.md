@@ -20,3 +20,41 @@ Instead of treating AI apps like demos, this project treats them like real softw
 
 ## 📁 Project Structure
 
+ai-devops-pipeline/
+├── app/
+│ └── main.py
+├── prompts/
+├── logs/
+├── scripts/
+├── .github/workflows/
+│ └── deploy.yml
+├── Dockerfile
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+yaml
+Copy
+Edit
+
+
+---
+
+## 🚀 Quick Start (Local)
+
+```bash
+# Clone the repo
+git clone https://github.com/MichaelObasa/ai-devops-pipeline.git
+cd ai-devops-pipeline
+
+# Build the container
+docker build -t ai-devops-app .
+
+# Run the container
+docker run -p 8000:8000 ai-devops-app
+
+# Test with curl
+curl -X POST http://localhost:8000/prompt \
+  -H "Content-Type: application/json" \
+  -d '{"prompt": "What is DevOps?"}'
+
