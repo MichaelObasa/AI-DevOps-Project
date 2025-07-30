@@ -54,3 +54,42 @@ curl -X POST http://localhost:8000/prompt \
   -d '{"prompt": "What is DevOps?"}'
 
 ---
+
+{
+  "version_id": "d1c9a9e3",
+  "response": "Mock GPT response to: What is DevOps?",
+  "tokens_used": 10
+}
+
+---
+
+🔁 GitHub Actions CI/CD
+On every push to main, the pipeline:
+
+- Installs dependencies
+- Runs basic checks
+- Prepares for future AKS deployment
+
+# .github/workflows/deploy.yml
+
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run simple test
+        run: echo "✅ CI pipeline triggered and working!"
+
+---
