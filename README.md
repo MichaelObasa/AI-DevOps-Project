@@ -33,11 +33,6 @@ ai-devops-pipeline/
 ├── .gitignore
 └── README.md
 
-yaml
-Copy
-Edit
-
-
 ---
 
 ## 🚀 Quick Start (Local)
@@ -98,6 +93,8 @@ jobs:
  Publish full project write-up on Medium
 
  Share reflections on LinkedIn
+
+--
 
 👨🏾‍💻 Built By
 Michael Obasa
