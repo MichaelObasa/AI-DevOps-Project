@@ -6,7 +6,7 @@ Instead of treating AI apps like demos, this project treats them like real softw
 
 ---
 
-## 🔧 Features
+## 🔧 Features 
 
 - ✅ **FastAPI app** for handling LLM-style prompts
 - ✅ **Prompt versioning** with SHA hash
@@ -90,6 +90,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run simple test
-        run: echo "✅ CI pipeline triggered and working!"
+        run: echo "✅ CI pipeline triggered and working !"
 
 ---
