@@ -4,7 +4,7 @@ This project shows how to build secure, scalable, cost-aware infrastructure for 
 
 Instead of treating AI apps like demos, this project treats them like real software - with versioning, token usage tracking, CI/CD, and containerized deployment.
 
----
+--- 
 
 ## 🔧 Features 
 
