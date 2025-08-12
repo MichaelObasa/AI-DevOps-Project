@@ -11,7 +11,7 @@ Instead of treating AI apps like demos, this project treats them like real softw
 - ✅ **FastAPI app** for handling LLM-style prompts
 - ✅ **Prompt versioning** with SHA hash
 - ✅ **Token usage logging** to CSV
-- ✅ **Dockerized workflow**
+- ✅ **Dockerized workflow** 
 - ✅ **CI/CD with GitHub Actions**
 - 🔒 **Vault for secrets management** (planned)
 - ☁️ **AKS deployment** (planned)
